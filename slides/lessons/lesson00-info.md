@@ -1,13 +1,13 @@
-# Curso de Java
+# Curso de Sql Server 2012
 ## Básico e intermedio
 
 :-------------------------------------------------------------------------------
 
 ## Acerca de
 
-**Objetivo General**: Introducir al participante en los conceptos y herramientas más importantes del lenguaje java para la programación orientada a objetos.
+**Objetivo General**: Introducir al participante en los conceptos y herramientas más importantes del manejo de base de datos con SQL Server 2012.
 
-**Duración**: 24 horas.
+**Duración**: 12 horas.
 
 **Sesiones**: 4 horas / sesión.
 

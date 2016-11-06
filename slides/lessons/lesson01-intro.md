@@ -1,57 +1,47 @@
-### Introducción a Java
+### Introducción
 
-<div class="image">
-<img class="stretch" data-src="img/hello_worl.jpg"/>
-</div>
+Una base de datos o banco de datos es un conjunto de datos pertenecientes a un mismo contexto y almacenados sistemáticamente para su posterior uso.
 
 :-------------------------------------------------------------------------------
 
-### ¿Por qué Java?
+### RDBMS
 
-Java es un lenguaje de programación de alto nivel y de propósito general caracterizado principalmente por lo siguiente:
-
-- Lenguaje simple
-- Orientado a Objetos
-- Distribuido
-- Multiproceso
-- Portable
-- Robusto
-- Seguro
-
-*A white paper - James Gosling, Henry McGilton, May 1996*
+Existen programas denominados sistemas gestores de bases de datos, abreviado DBMS, que permiten almacenar y posteriormente acceder a los datos de forma rápida y estructurada. 
 
 :-------------------------------------------------------------------------------
 
-### Extensión de archivos
+### Modelos de bases de datos
 
-En el lenguaje JAVA, todos los archivos de código fuente que podamos construir estarán en un archivo de texto plano con extensión `.java`.
+- Bases de datos Jerárquicas
+- Bases de datos en Red
+- Bases de datos Transaccionales
+- Bases de datos Relacionales
+- Bases de datos Multidimensionales (OLAP)
+- Bases de datos Orientadas a Objetos
+- Bases de datos Documentales
 
-Todos estos archivos, son compilados en un archivo secundario con extensión `.class` por el compilador **javac**.
-
-:-------------------------------------------------------------------------------
-
-### La Plataforma JAVA
-
-- **JVM (Java Virtual Machine)**: La Máquina Virtual de Java es una proceso nativo para el sistema operativo.
-
-- **API (Application Programming Interface)**: La API de Java es un una larga colección de componentes de software
 
 :-------------------------------------------------------------------------------
 
-### Java Virtual Machine
+### ¿Qué es SQL?
 
-<div class="image">
-  <img class="stretch no-border" data-src="img/jvm.png"/>
-</div>
+Es un lenguaje de programación diseñado para almacenar, manipular y recuperar datos almacenados en bases de datos relacionales.
 
-Interpreta y ejecuta instrucciones expresadas en un código binario (*bytecode*), generado por el compilador de Java.
 
 :-------------------------------------------------------------------------------
 
-### Application Programming Interface
+### MS SQL Server
 
-<div class="image">
-  <img class="stretch no-border" data-src="img/api.png"/>
-</div>
+Microsoft SQL Server es un sistema para la gestión de bases de datos producido por Microsoft basado en el modelo relacional. Sus lenguajes para consultas son T-SQL y ANSI SQL.
 
-Provee un conjunto de funcionalidades y capacidades para desarrollar toda una solución de software basada en Java.
+Microsoft SQL Server constituye la alternativa de Microsoft a otros potentes sistemas gestores de bases de datos como son Oracle, PostgreSQL o MySQL.
+
+
+:-------------------------------------------------------------------------------
+
+### T-SQL
+
+T-SQL (Transact-SQL) es el principal medio de interacción con el Servidor. Permite realizar las operaciones claves en SQL Server, incluyendo la creación y modificación de
+esquemas de la base de datos, la introducción y edición de los datos en la base de datos, así como la administración del servidor como tal.
+
+Esto se realiza mediante el envío de sentencias de T-SQL y declaraciones que son procesadas por el servidor y los resultados (o errores) regresan a la aplicación cliente.
