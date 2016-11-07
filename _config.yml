@@ -1,10 +1,6 @@
 url: http://migsalazar/sqlserver-course
 baseurl: ""
-topnav_title: Curso de Sql Server
-site_title:
-company_name: Mig Salazar
-company_url: http://migsalazar.com
-github_editme_path:
+site_title:  Curso de Sql Server
 
 # host: 127.0.0.1
 # port: 4000
@@ -12,14 +8,15 @@ github_editme_path:
 exclude:
   - _site
   - _drafts/
-  - .idea/
 
-feedback_email: migsalazar.com
-
-highlighter: rouge
 markdown: kramdown
 kramdown:
  input: GFM
  auto_ids: true
  hard_wrap: false
  syntax_highlighter: rouges
+
+collections:
+    content:
+        output: true
+        permalink: /content/:path/
