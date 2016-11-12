@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   margin:0 0 20px;
 }
 
-p, ul, ol, table, pre, dl {
+p, ul, table, pre, dl {
   margin:0 0 20px;
 }
 
@@ -175,7 +175,7 @@ header ul {
   width:270px;
 }
 
-header li {
+header ul:not(.content-table) li {
   width:89px;
   float:left;
   border-right:1px solid #e0e0e0;
@@ -322,4 +322,13 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+header ol.content-table {
+    /*max-height: 700px;
+    overflow-y: scroll;*/
+}
+
+header ol.content-table li {
+    list-style: none;
 }

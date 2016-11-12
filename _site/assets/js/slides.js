@@ -23,7 +23,7 @@ $(function(){
       transition: 'slide',
       mouseWheel: true,
       hideAddressBar: true,
-      previewLinks: true,
+      previewLinks: false,
       transitionSpeed: 'default',
       zoomKey: 'shift',
       menu: {

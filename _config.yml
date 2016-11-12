@@ -2,9 +2,6 @@ url: http://migsalazar/sqlserver-course
 baseurl: ""
 site_title:  Curso de Sql Server
 
-# host: 127.0.0.1
-# port: 4000
-
 exclude:
   - _site
   - _drafts/
@@ -19,4 +16,5 @@ kramdown:
 collections:
     content:
         output: true
-        permalink: /content/:path/
+        permalink: /:path/
+        title: Prueba
