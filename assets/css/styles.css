@@ -324,6 +324,10 @@ footer {
   }
 }
 
+header a {
+    cursor: pointer;
+}
+
 header ol.content-table {
     /*max-height: 700px;
     overflow-y: scroll;*/
