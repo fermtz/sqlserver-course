@@ -163,8 +163,6 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
-  border-right: 1px solid #dadada;
-  height: calc(100% - 150px);
 }
 
 header ul {
