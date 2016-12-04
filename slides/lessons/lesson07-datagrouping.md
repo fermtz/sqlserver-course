@@ -25,14 +25,13 @@
 
 ### Funciones de agregado
 
-- AVG: Promedio de un conjunto de datos
-- COUNT: Número de valores dentro de un conjunto de datos
-- MAX: Valor mas alto en el conjunto de datos
-- MIN: Valor mas pequeño en un conjunto de datos
-- SUM: Valor total de suma en un conjnuto numérico
-- STDEV: Desviación estándar
-- STDEVP: Desviación estándar poblacional
-- VAR: Varianza estadística
-- VARP: Varianza poblacional
- 
+- `AVG`: Promedio de un conjunto de datos
+- `COUNT`: Número de valores dentro de un conjunto de datos
+- `MAX`: Valor mas alto en el conjunto de datos
+- `MIN`: Valor mas pequeño en un conjunto de datos
+- `SUM`: Valor total de suma en un conjnuto numérico
+- `STDEV`: Desviación estándar
+- `STDEVP`: Desviación estándar poblacional
+- `VAR`: Varianza estadística
+- `VARP`: Varianza poblacional
  
