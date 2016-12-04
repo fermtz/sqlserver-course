@@ -15,9 +15,11 @@ Lenguaje de Manipulación de Datos (Data Manipulation Language): Es el conjun
 
 La sentencia `SELECT` devuelve un conjunto de registros de una o más tablas:
 
-	SELECT 	column_1, column_2, column_3, column_n
-	FROM 	table AS 'alias'
-	WHERE 	column_X = 'value';
+```
+SELECT 	column_1, column_2, column_3, column_n
+FROM 	table AS 'alias'
+WHERE 	column_X = 'value';
+```
 
 - La cláusula `WHERE` es opcional
 
@@ -27,9 +29,11 @@ La sentencia `SELECT` devuelve un conjunto de registros de una o más tablas:
 
 La sentencia `UPDATE` cambia o modifica los registros existentes en alguna tabla.
 
-	UPDATE 	table
-	SET 	column_to_update = 'value to update'
-	WHERE 	column_condition = 'value';
+```
+UPDATE 	table
+SET 	column_to_update = 'value to update'
+WHERE 	column_condition = 'value';
+```
 
 - Si no se utiliza una condición `WHERE`, el update afectará a todos los registros.
 
@@ -39,8 +43,10 @@ La sentencia `UPDATE` cambia o modifica los registros existentes en alguna tabla
 
 La sentencia `INSERT` agrega uno o más registros en una tabla.
 
-	INSERT INTO table 	(column_1, column_2)
-	VALUES 				('string value', 5);
+```
+INSERT INTO table 	(column_1, column_2)
+VALUES 				('string value', 5);
+```
 
 - Puede estar formada por valores fijos
 - Puede insertar una tabla completa obtenida mediante un `SELECT`.
@@ -52,10 +58,11 @@ La sentencia `INSERT` agrega uno o más registros en una tabla.
 
 La sentencia Delete  remueve o elimina uno o mas registros de una tabla.
 
-	DELETE
-	FROM 	table
-	WHERE 	column_x = 'value';
-
+```
+DELETE
+FROM 	table
+WHERE 	column_x = 'value';
+```
 
 - Si no se utiliza la cláusula `WHERE`, se eliminará todos los registros de la tabla.
 
