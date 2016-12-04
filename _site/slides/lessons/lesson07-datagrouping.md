@@ -8,7 +8,7 @@
 
 :-------------------------------------------------------------------------------
 
-### Selección con `TOP`
+### Uso de `TOP`
 
 - Presenta sólo las *n* primeras filas de un conjunto de resultados
 - Especifica si se desean recuperar los ultimos o primeros n elementos con `ORDER BY` (`ASC` y `DSC`)
@@ -35,3 +35,28 @@
 - `VAR`: Varianza estadística
 - `VARP`: Varianza poblacional
  
+:-------------------------------------------------------------------------------
+
+### Uso de `GROUP BY`
+
+Construye la agrupación en base a una columna:
+
+```
+SELECT      ProductId, SUM(quantity) AS TotalQuantity
+ FROM       Orderhist
+ GROUP BY   ProductId;
+```
+
+:-------------------------------------------------------------------------------
+
+### Uso de `GROUP BY` + `HAVING`
+
+La instrucción `HAVING` actúa como `WHERE` una vez agrupada la información.
+
+```
+SELECT      ProductId, 
+            SUM(quantity) AS TotalQuantity
+ FROM       Orderhist
+ GROUP BY   ProductId
+ HAVING     SUM(Quantity) >= 30;
+```
